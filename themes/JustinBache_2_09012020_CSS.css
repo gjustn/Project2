@@ -1,0 +1,255 @@
+﻿body {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  padding: 5px;
+  font-family: 'Raleway', italic;
+}
+/*Header Section*/
+header {
+  display: inline-flex;
+  flex-flow: row;
+  width: 100%;
+  height: 25px;
+  justify-content: space-between;
+}
+  .logo {
+    margin: 0;
+    height: 100%;
+    width: auto;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-image: url("../utils/icons/Reservia@3x.png");
+  }
+    #tMenu ul {
+      margin: 0;
+      text-decoration: none;
+    }
+    #tMenu li {
+      display: inline;
+      margin: 5px;
+    }
+    a:link {
+      color: #0065FC;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #0065FC;
+      font-weight: bold;
+    }
+/*Location Section*/
+.location {
+    width: 500px;
+    margin: 0;
+    padding: 5px;
+}
+    .location p {
+        line-height: 1.6;
+      }
+    .location h3 {
+
+    }
+    .locate-block {
+        display: inline-flex;
+        border-radius: 10px;
+        padding: 5px;
+    }
+        .map-button {
+            margin: 0;
+            height: 30px;
+            width: 30px;
+            border: none;
+            border-radius: 9px 0 0 9px;
+            background-color: #F2F2F2;
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url("../utils/icons/location.svg")
+        }
+        .youAt {
+            border: none;
+            width: 200px;
+            background-color: white;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            border: 1px solid #F2F2F2;
+        }
+        .search {
+            background-color: #0065FC;
+            color: white;
+            height: auto;
+            width: auto;
+            margin-right: 0;
+            border: none;
+            border-radius: 0 9px 9px 0;
+        }
+/*Filter Section*/
+  .filcon {
+  }
+    .filcon ul {
+      list-style: none;
+    }
+      .filcon li {
+        display: inline;
+        width: 53px;
+        height: 20px;
+        margin-right: 15px;
+        border: 2px solid lightGray;
+        border-radius: 10px;
+        background-color: white;
+      }
+        .filcon li i {
+          display: inline;
+          position: relative;
+          padding: 4px;
+          margin-left: -2px;
+          align-items: center;
+          height: 22px;
+          width: 22px;
+          border-radius: 50%;
+          color: blue;
+          font-size: 15px;
+          background-color: lightGray;
+        }
+      .filcon li:first-of-type {
+        font-weight: bold;
+        border: none;
+      }
+        .filcon li p {
+          display: inline;
+          text-align: left;
+          margin-left: 25px;
+          margin-right: 5px;
+        }
+  .claim {
+    font-size: 8px;
+    margin: 4px;
+  }
+    .claim a {
+      border: 1px solid lightGray;
+      padding: 2px 6px 2px 6px;
+      border-radius: 50%;
+      font-weight: bold;
+      color: blue;
+    }
+/*Result Section*/
+.results {
+  margin-left: 0;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+.local {
+    flex-flow: row;
+    line-height: 3px;
+    width: 55%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2px;
+}
+.locaBlk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    .locaBlk ul {
+        display: flex;
+        flex-flow: column wrap;
+        width: 30%;
+        height: 40%;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        list-style: none;
+        padding: 2px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+        line-height: 0.5;
+    }
+    .locaBlk li {
+        font-size: 10px;
+        line-height: 1;
+    }
+.locaBlk_img {
+    display: flex;
+    width: 100%;
+    height: 65%;
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0 0 50px 0;
+}
+
+.MP {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 1px;
+}
+    .MP ul {
+      display: flex;
+      flex-flow: column;
+      text-decoration: none;
+      list-style: none;
+      margin: 10px;
+      padding: 1px;
+      width: 94%;
+      height: 20%;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      list-style: none;
+      border-radius: 10px;
+      background-color: white;
+      line-height: 0.5;
+    }
+    .MP li {
+      width: 100%;
+      font-size: 10px;
+      line-height: 1;
+      margin: 1px auto 1px 1px;
+      padding: 1px;
+    }
+    .MP b, p, i {
+      display: flex;
+      flex-direction: column;
+      flex-flow: space-between;
+    }
+    .MP i {
+      flex
+    }
+    .MP_img {
+      display: flex;
+      float: left;
+      height: 113%;
+      width: 35%;
+      padding-left: 3px;
+      margin: 0;
+      border-radius: 10px 0 0 10px;
+      background-repeat: no-repeat;
+      background-attachment: inherit;
+      background-position: center;
+      background-size: cover;
+      background-color: black;
+    }
+
+.stars {
+  display: inline;
+  color: #0065FC;
+  font-style: inherit;
+}
