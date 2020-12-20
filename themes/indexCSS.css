@@ -230,9 +230,6 @@ header {
       flex-direction: column;
       flex-flow: space-between;
     }
-    .MP i {
-      flex
-    }
     .MP_img {
       display: flex;
       float: left;
