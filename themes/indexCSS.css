@@ -263,35 +263,71 @@ header {
           }
 /*Activities section*/
   .Activities {
-
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 400px;
+    padding: 10px;
+    margin-left: 0;
   }
   .Activities h3 {
     font-size: 14px;
+    padding: 5px;
   }
-    .Activities > div {
+    .Acts {
       display: flex;
-      flex-flow: row wrap;
-      justify-content: space-evenly;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      max-height: 100%;
+      margin: 0;
     }
-      .A_lis {
+      .Act {
         display: flex;
         flex-direction: column;
-        width: 20%;
-        max-height: 100px;
+        max-height: 100%;
+        width: 24%;
         border-radius: 10px;
+        box-shadow: 3px 3px 10px #000;
+        overflow: hidden;
       }
-        .A_lis img {
+        .Act div {
           max-height: 100%;
-          max-width: 100%;
-          margin: 0;
-          padding: 0 0 auto 0;
-          border-radius: 10x 10px 0 0;
+          width: 100%;
+          position: relative;
+          border-radius: 10px;
           background-repeat: no-repeat;
           background-attachment: inherit;
           background-position: center;
           background-size: cover;
-          background-color: black;
         }
-        .A_cont {
-
+        .Act p {
+          font-size: 10px;
+          font-weight: bold;
+          width: 100%;
+          padding-left: 5px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          margin-top: 0;
+          margin-bottom: auto;
+          background-color: #fff;
         }
+      .A1 {
+        height: 300px;
+      }
+      .A2 {
+        height: 150px;
+      }
+      .A3 {
+        height: 100px;
+      }
+      .A4 {
+        height: 300px;
+      }
+      .A5 {
+        height: 130px;
+      }
+      .A6 {
+        height: 130px;
+      }
