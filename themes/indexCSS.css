@@ -266,7 +266,7 @@ header {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 400px;
+    height: 300px;
     padding: 10px;
     margin-left: 0;
   }
@@ -279,56 +279,104 @@ header {
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-between;
-      width: 100%;
+      position: relative;
       max-height: 100%;
+      width: 100%;
       margin: 0;
+      border-radius: 10px;
     }
       .Act {
         display: flex;
         flex-direction: column;
         max-height: 100%;
         width: 24%;
-        padding: 0;
         border-radius: 10px;
-        box-shadow: 3px 3px 10px #000;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         overflow: hidden;
       }
-        .Act div {
-          max-height: 100%;
-          width: 100%;
-          position: relative;
-          border-radius: 10px;
-          background-repeat: no-repeat;
-          background-attachment: inherit;
-          background-position: center;
-          background-size: cover;
-        }
         .Act p {
           font-size: 10px;
           font-weight: bold;
           width: 100%;
-          padding-left: 5px;
-          padding-top: 5px;
-          padding-bottom: 5px;
-          margin-top: 0;
-          margin-bottom: auto;
+          height: 100%;
+          padding: 5px;
           background-color: #fff;
         }
       .A1 {
         height: 300px;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
+      }
+      .A1 p {
+        margin-top: 280px;
       }
       .A2 {
         height: 150px;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
       }
+        .A2 p {
+          margin-top: 130px;
+        }
       .A3 {
-        height: 100px;
+        height: 125px;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
       }
+        .A3 p {
+          margin-top: 105px;
+        }
       .A4 {
         height: 300px;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
       }
+        .A4 p {
+          margin-top: 280px;
+        }
       .A5 {
-        height: 130px;
+        height: 135px;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
       }
+        .A5 p {
+          margin-top: 115px;
+        }
       .A6 {
-        height: 130px;
+        height: 135px;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
+      }
+        .A6 p {
+          margin-top: 115px;
+        }
+
+/* FOOTER section */
+  footer {
+    margin-top: 70px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    background-color: #F2F2F2;
+  }
+  .foot_opt {
+    display: flex;
+  }
+      .foot_opt ul {
+        list-style: none;
+      }
+      .foot_opt a {
+        text-decoration: none;
+        color: #000;
       }
