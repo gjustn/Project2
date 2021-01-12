@@ -6,6 +6,7 @@
   padding: 10px;
   font-family: 'Raleway', italic;
 }
+
 /*Header Section*/
 header {
   display: flex;
@@ -35,6 +36,7 @@ header {
           padding-top: 23px;
           border-top: 3px solid #0065FC;
         }
+
 /*Location Section*/
 .location {
   width: 500px;
@@ -76,6 +78,7 @@ header {
       border: none;
       border-radius: 0 9px 9px 0;
     }
+
 /*Filter Section*/
 .filcon {
   margin: 0;
@@ -111,6 +114,7 @@ header {
         background-color: lightBlue;
         border-radius: 50%;
       }
+
 /*DISCLAIMER*/
 .claim {
   font-size: 8px;
@@ -125,6 +129,7 @@ header {
     text-decoration: none;
     color: blue;
   }
+
 /*Result Section*/
 .results {
   display: inline-flex;
@@ -138,6 +143,7 @@ header {
     font-size: 14px;
     padding: 5px;
   }
+
 /*LOCAL Accomodations Section*/
   .local {
     flex-flow: row;
@@ -195,6 +201,7 @@ header {
             margin: 0;
             padding: 0 0 75px 0;
           }
+
 /*Most Popular section*/
   .MP {
     display: flex;
@@ -254,6 +261,7 @@ header {
           background-size: cover;
           background-color: black;
         }
+
 /*STARS*/
           .stars {
             display: inline;
@@ -261,6 +269,7 @@ header {
             font-style: inherit;
             padding-bottom: 1px;
           }
+          
 /*Activities section*/
   .Activities {
     display: flex;
