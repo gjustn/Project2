@@ -1,0 +1,215 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-family: 'Raleway', italic;
+}
+
+/* HEADER section */
+header {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+  .logo {
+    height: 3em;
+  }
+  .tMenu {
+
+  }
+    .tMenu ul {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      justify-content: space-between;
+    }
+      .tMenu li {
+        font-size: 3em;
+      }
+      .tMenu li:nth-of-type(3) {
+
+      }
+        .tMenu li a {
+
+        }
+
+/* LOCATION section */
+.location {
+
+}
+  .location h3 {
+
+  }
+  .location p {
+
+  }
+  .locate-block {
+
+  }
+    .map-button {
+
+    }
+    .youAt {
+
+    }
+    .search {
+
+    }
+
+/* FILTER section */
+.filcon {
+
+}
+  .filcon ul {
+
+  }
+    .filcon li {
+
+    }
+      .filcon li img {
+
+      }
+.claim {
+
+}
+  .claim a {
+
+  }
+
+/* RESULT section */
+.results {
+
+}
+/* LOCAL */
+  .local {
+
+  }
+    .local h3 {
+
+    }
+    .locaBlk {
+
+    }
+      .locaBlk ul {
+
+      }
+        .locaBlk li {
+
+        }
+          .locaBlk_img {
+
+          }
+          .locaCont {
+
+          }
+            .locaCont b {
+
+            }
+            .locaCont p {
+
+            }
+/* STARS */ .stars {
+
+            }
+/* MOST POPULAR */
+  .MP {
+
+  }
+    .MP h3 {
+
+    }
+    .MP ul {
+
+    }
+      .MP li {
+
+      }
+        .MP_img {
+
+        }
+        .MP_cont {
+
+        }
+        .MP_cont p {
+
+        }
+
+/* ACTIVITIES section */
+  .Activities {
+
+  }
+    .Activities h3 {
+
+    }
+    .Acts {
+
+    }
+      .Act {
+
+      }
+        .A1 {
+
+        }
+          .A1 p {
+
+          }
+        .A2 {
+
+        }
+          .A2 p {
+
+          }
+        .A3 {
+
+        }
+          .A3 p {
+
+          }
+        .A4 {
+
+        }
+          .A4 p {
+
+          }
+        .A5 {
+
+        }
+          .A5 p {
+
+          }
+        .A6 {
+
+        }
+          .A6 p {
+
+          }
+
+/* FOOTER section */
+  footer {
+
+  }
+    .foot_opt {
+
+    }
+      .list_1 {
+
+      }
+      .list_2 {
+
+      }
+      .list_3 {
+
+      }
+        .foot_opt ul {
+
+        }
+          .foot_opt li {
+
+          }
+            .foot_opt li > h3 {
+
+            }
+            .foot_opt li > a {
+
+            }
