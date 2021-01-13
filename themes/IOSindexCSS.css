@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   flex-flow: column wrap;
@@ -12,27 +13,36 @@ header {
   display: flex;
   width: 100%;
   height: auto;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
   .logo {
-    height: 3em;
+    height: 100%;
+    width: 55%;
   }
-  .tMenu {
-
+  .sign_up {
   }
-    .tMenu ul {
+    .sign_up a {
       display: flex;
-      flex-wrap: wrap-reverse;
-      justify-content: space-between;
+      justify-content: flex-end;
+      margin-top: 5px;
+      font-size: 3em;
+      text-decoration: none;
+      color: #0065FC;
     }
-      .tMenu li {
-        font-size: 3em;
-      }
-      .tMenu li:nth-of-type(3) {
+  .tMenu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid lightGray;
 
-      }
-        .tMenu li a {
+  }
+    .tAmenu a {
 
-        }
+    }
+    .tBmenu a {
+
+    }
 
 /* LOCATION section */
 .location {

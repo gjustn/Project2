@@ -1,4 +1,4 @@
-﻿body {
+body {
   display: flex;
   flex-flow: column wrap;
   max-width: 100%;
@@ -7,7 +7,7 @@
   font-family: 'Raleway', italic;
 }
 
-/*Header Section*/
+/* Header Section */
 header {
   display: flex;
   flex-flow: row;
@@ -19,6 +19,7 @@ header {
       height: 100%;
       width: auto;
   }
+
     .tMenu ul {
       width: auto;
       list-style-type: none;
@@ -37,7 +38,7 @@ header {
           border-top: 3px solid #0065FC;
         }
 
-/*Location Section*/
+/* Location Section */
 .location {
   width: 500px;
   margin: 0;
@@ -79,7 +80,7 @@ header {
       border-radius: 0 9px 9px 0;
     }
 
-/*Filter Section*/
+/* Filter Section */
 .filcon {
   margin: 0;
   font-size: 13px;
@@ -115,7 +116,7 @@ header {
         border-radius: 50%;
       }
 
-/*DISCLAIMER*/
+/* DISCLAIMER */
 .claim {
   font-size: 8px;
   margin-bottom: 10px;
@@ -130,7 +131,7 @@ header {
     color: blue;
   }
 
-/*Result Section*/
+/* Result Section */
 .results {
   display: inline-flex;
   justify-content: space-between;
@@ -144,7 +145,7 @@ header {
     padding: 5px;
   }
 
-/*LOCAL Accomodations Section*/
+/* LOCAL Accomodations Section */
   .local {
     flex-flow: row;
     line-height: 3px;
@@ -202,7 +203,7 @@ header {
             padding: 0 0 75px 0;
           }
 
-/*Most Popular section*/
+/* Most Popular section */
   .MP {
     display: flex;
     flex-direction: column;
@@ -262,15 +263,15 @@ header {
           background-color: black;
         }
 
-/*STARS*/
+/* STARS */
           .stars {
             display: inline;
             color: #0065FC;
             font-style: inherit;
             padding-bottom: 1px;
           }
-          
-/*Activities section*/
+
+/* Activities section */
   .Activities {
     display: flex;
     flex-direction: column;
