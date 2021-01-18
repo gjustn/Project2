@@ -56,7 +56,7 @@ header {
 
 /* LOCATION section */
 .location {
-
+  align-items: center;
 }
   .location h3 {
     font-size: 4em;
@@ -65,39 +65,78 @@ header {
 
   }
   .locate-block {
-    width: 100%;
+    display: inline-flex;
+    border-radius: 10px;
+    margin-left: 30px;
   }
     .map-button {
       margin: 0;
-      height: 60px;
-      width: 60px;
+      height: 100px;
+      width: 100px;
       border: none;
       border-radius: 9px 0 0 9px;
       background-color: #F2F2F2;
-      background-size: 20px;
+      background-size: 30px;
       background-repeat: no-repeat;
       background-position: center;
       background-image: url("../utils/icons/location.svg")
     }
     .youAt {
-      height: 60px;
+      width: 350px;
+      border: none;
+      background-color: white;
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      border: 1px solid #F2F2F2;
     }
     .search {
-
+      background-color: #0065FC;
+      color: white;
+      height: auto;
+      width: 100px;
+      margin-right: 0;
+      border: none;
+      border-radius: 0 9px 9px 0;
+      background-size: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url("../utils/icons/search.svg")
     }
 
 /* FILTER section */
 .filcon {
-
+  margin: 0;
+  font-size: 13px;
 }
   .filcon ul {
-
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
   }
     .filcon li {
-
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 200px;
+      height: 60px;
+      margin-right: 15px;
+      padding-right: 15px;
+      padding-left: 10px;
+      border: 2px solid lightGray;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 3em;
     }
-      .filcon li img {
-        width: 50px;
+    .filcon li:first-of-type {
+      border: none;
+    }
+      .filcon li > img {
+        position: relative;
+        height: 66px;
+        width: 66px;
+        margin: -2px -2px -2px -20px;
+        background-color: lightBlue;
+        border-radius: 50%;
       }
 .claim {
 
