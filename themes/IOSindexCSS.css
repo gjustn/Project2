@@ -1,8 +1,7 @@
-
 body {
   display: flex;
   flex-flow: column wrap;
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   font-family: 'Raleway', italic;
 }
@@ -11,16 +10,16 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  max-width: 100%;
   width: 100%;
   height: auto;
   padding-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 40px;
 }
   .logo {
     height: 100%;
-    width: 55%;
   }
   .sign_up {
   }
@@ -36,24 +35,27 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
-    border-bottom: 5px solid lightGray;
     font-size: 3em;
+    font-weight: bold;
   }
-    .tAmenu a {
-      text-decoration: none;
+    .tAmenu, .tBmenu {
+      width: 50%;
+      text-align: center;
+      line-height: 3;
+      border-bottom: 5px solid lightGray;
     }
-      .tAmenu a:hover {
+      .tAmenu a {
         color: #0065FC;
-        border-bottom: 5px solid #0065FC;
+        text-decoration: none;
       }
-    .tBmenu a {
-      text-decoration: none;
-    }
-      .tBmenu a:hover {
-        color: #0065FC;
-        border-bottom: 5px solid #0065FC;
+      .tBmenu a {
+        color: #000;
+        text-decoration: none;
       }
+        .tAmenu, .tBmenu a:active {
+          color: #0065FC;
+          border-bottom: 5px solid #0065FC;
+        }
 
 /* LOCATION section */
 .location {
@@ -78,12 +80,13 @@ header {
   }
     .map-button {
       margin: 0;
+      padding: 0;
       height: 100px;
       width: 100px;
       border: none;
       border-radius: 25px 0 0 25px;
       background-color: #F2F2F2;
-      background-size: 30px;
+      background-size: 50px;
       background-repeat: no-repeat;
       background-position: center;
       background-image: url("../utils/icons/location.svg")
@@ -102,9 +105,10 @@ header {
       height: auto;
       width: 100px;
       margin-right: 0;
+      padding: 0;
       border: none;
       border-radius: 25px;
-      background-size: 30px;
+      background-size: 50px;
       background-repeat: no-repeat;
       background-position: center;
       background-image: url("../utils/icons/search.svg")
@@ -114,6 +118,8 @@ header {
 .filcon {
   display: flex;
   margin-top: 20px;
+  height: 100px;
+  padding: 10px;
   font-size: 13px;
 }
   .filcon ul {
@@ -137,7 +143,7 @@ header {
       font-size: 3.5em;
      }
     .filter {
-      font-size: 3.5em;
+      font-size: 20px;
       margin-left: 20px;
       margin-bottom: -15px;
     }
@@ -149,12 +155,12 @@ header {
         background-color: lightBlue;
         border-radius: 50%;
       }
-.claim {
-
-}
-  .claim a {
-
-  }
+      .claim {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
 
 /* RESULT section */
 .results {
