@@ -140,6 +140,9 @@ header {
   margin-right: 15px;
   width: 100%;
 }
+@media {.results {
+  flex-flow: column;
+}}
   .results h3 {
     font-size: 14px;
     padding: 5px;
@@ -202,6 +205,9 @@ header {
             margin: 0;
             padding: 0 0 75px 0;
           }
+          @media }.localBlk_img {
+            max-width: 100%;
+          }}
 
 /* Most Popular section */
   .MP {
