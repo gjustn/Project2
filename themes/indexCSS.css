@@ -140,9 +140,6 @@ header {
   margin-right: 15px;
   width: 100%;
 }
-@media {.results {
-  flex-flow: column;
-}}
   .results h3 {
     font-size: 14px;
     padding: 5px;
@@ -205,10 +202,6 @@ header {
             margin: 0;
             padding: 0 0 75px 0;
           }
-          @media }.localBlk_img {
-            max-width: 100%;
-          }}
-
 /* Most Popular section */
   .MP {
     display: flex;
@@ -395,4 +388,17 @@ header {
       .foot_opt a {
         text-decoration: none;
         color: #000;
+      }
+
+/* Responsive adjustments */
+      @media only screen and (min-width: 600px) {
+        header {
+          flex-wrap: wrap-reverse;
+        }
+         .map-button, .search {
+           width: 20%;
+         }
+         .youAt {
+           width: 60%;
+         }
       }
